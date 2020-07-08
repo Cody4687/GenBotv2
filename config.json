@@ -1,18 +1,12 @@
 {
-  "bots": [
-    {
-      "name": "GenesisBot",
-      "email": "",
-      "password": "",
-      "botOwner": "Cody4687",
-      "token": "",
-      "channelId": "",
-      "controlChannelId": "",
-      "logChannelId": "",
-      "botId": "",
-      "spamDelay": 900000,
-      "prefix": "!",
-      "type": "chatbot"
-    }
-  ]
+    "email": "",
+    "password": "",
+    "botOwner": "Cody4687",
+    "token": "",
+    "channelId": "",
+    "controlChannelId": "",
+    "logChannelId": "",
+    "botId": "",
+    "spamDelay": 900000,
+    "prefix": "!"
 }
