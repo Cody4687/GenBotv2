@@ -105,9 +105,9 @@ class ChatBot extends Bot {
     }
   }
 
-  chat (b, c, a) {
-    super.chat(b, c, a)
-    this.discord.channels.cache.get(this.config.logChannelId).send(a)
+  chat (b, c) {
+    super.chat(b, c)
+    this.discord.channels.cache.get(this.config.logChannelId).send(c)
   }
 
   end () {
